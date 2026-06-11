@@ -1,0 +1,24 @@
+{
+  "name": "pi-themes",
+  "version": "0.1.0",
+  "description": "ORGM Pi themes package.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmargm1202/pi-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/osmargm1202/pi-themes/issues"
+  },
+  "homepage": "https://github.com/osmargm1202/pi-themes#readme",
+  "keywords": ["pi-package", "pi-theme", "orgm"],
+  "files": ["themes", "README.md"],
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "pi": {
+    "themes": ["./themes"]
+  }
+}
