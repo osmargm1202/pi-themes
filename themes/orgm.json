@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
   "name": "orgm",
   "vars": {
     "bg": "#06142f",
@@ -79,9 +79,7 @@
     "thinkingMedium": "glow1",
     "thinkingHigh": "shadow2",
     "thinkingXhigh": "error",
-    "bashMode": "warning",
-    "cyan": "cyan",
-    "purple": "purple"
+    "bashMode": "warning"
   },
   "export": {
     "pageBg": "#06142f",
